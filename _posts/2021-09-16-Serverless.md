@@ -18,27 +18,54 @@ Serverless and Faas is almoste the same thing but with time, serverless has grow
 _______________________
 
 #### Calulator
+We started with the templat that is built in to Visual Studio for Azure Functions HTTP and tryied it out. After we got how the code worked we just changed the "req.Query" to a int and added one more. We then added a "string output" that made the calculation and returnd the answer.
+After that we puplished it to Azure Function and tried it with the URL given on Azure. The problem we ran in to was thad you had to have a "&" after the given URL to make your query from it and not a question mark as in the localhost.
 
+After we got that part figured out the we tested it in teh browser aswell and it works perfectly, if you like to try it [here is the link](https://azuretesthttp.azurewebsites.net/api/Function1?code=kt/rMICG3aKh9q9b/HM9/jzLFRnwMjtZGrbxvQVQi9YvpQTUCKPizw==&first=1&second=3)
 
-
+Change the "first = * " and "second = * " to the number you want.
 
 _______________________
-### Dockerfile
+### Function
 
 ```
+namespace FunctionApp1
+{
+    public static class Function1
+    {
+        [FunctionName("Function1")]
+        public static async Task<IActionResult> Run(
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            ILogger log)
+        {
+            log.LogInformation("C# HTTP trigger function processed a request.");
 
+            int first = int.Parse(req.Query["First"]);    # First query input
+            int second = int.Parse(req.Query["Second"]);    # Second query input
+
+            string output = $"{first + second}";    # Calculates the two numbers
+
+            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            dynamic data = JsonConvert.DeserializeObject(requestBody);
+            output = output ?? data?.name;
+
+            string responseMessage = string.IsNullOrEmpty(output)     # Checks that it's not null or empty
+                ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
+                : $"{first } + {second} = {output}";    # The string to send back
+
+            return new OkObjectResult(responseMessage);     # Returns the data
+        }
+    }
+}
 
 ```
 _______________________
-### Pipeline
+### Risks    
+The risk with injections is that you can, if you don't secure you code, write in executable code in the querystring. So even if you don't have a database connected to it's a risk you should think about.
+To fix this for us we should make sure that you can't put anything els then numbers in the querystrin. We have not done this though...
 
-```
-
-
-```           
 _______________________
 
 
-<>    
-<>  
-<>
+<https://raw.githubusercontent.com/OWASP/Serverless-Top-10-Project/master/OWASP-Top-10-Serverless-Interpretation-en.pdf>    
+<https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview>  
