@@ -96,11 +96,14 @@ public class User                               //Class to storde the temp data 
 }
 ```
 _______________________
-###    
+### How It Works
+So we started with opening up a new web appliction in Visual Studio and then Published it to Azure as a App Service using [this](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs) guide. After that we made the code you see above and tested it in the local host starting with the ***Get*** method. When we got the respons as we wanted we started with the ***Post***. When all of it worked as we wanted it to we made published it again.  
+
+After this we started with making the pipeline work in GitHub with som help from [here](https://docs.microsoft.com/sv-se/azure/app-service/deploy-ci-cd-custom-container?tabs=acr&pivots=container-linux).
 
 
 _______________________
 
 
-<>    
-<>  
+<https://docs.microsoft.com/sv-se/azure/app-service/deploy-ci-cd-custom-container?tabs=acr&pivots=container-linux>    
+<https://docs.microsoft.com/en-us/azure/devops/boards/github/connect-to-github?view=azure-devops>  
