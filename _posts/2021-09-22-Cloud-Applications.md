@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Applications In the Cloud
+title: Applications In The Cloud
 subtitle: Pay when it's used
 cover-img: https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1730&q=80
 thumbnail-img: https://images.unsplash.com/photo-1586282391129-76a6df230234?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80
