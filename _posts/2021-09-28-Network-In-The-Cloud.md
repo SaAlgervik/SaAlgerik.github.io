@@ -21,7 +21,7 @@ We can also schedule when we want things to happen for exampel if we want someth
 
 Whit this we can have Virtual Privat Cloud (VPC) and don't have to think about any downtime on the application and be able to grow when we need to, and have shared VPC for the entire organization. This means teams isolated within projects can maintain a shared private IP space to access commonly used services.
 
-
+Best Regards Team bus drivers!
 _______________________
 
 
