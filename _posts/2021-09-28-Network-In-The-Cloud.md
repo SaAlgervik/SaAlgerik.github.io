@@ -5,7 +5,7 @@ subtitle: Make it Private
 cover-img: https://images.unsplash.com/photo-1618767451283-c9705dff0874?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80 
 thumbnail-img: https://s7280.pcdn.co/wp-content/uploads/2020/06/virtual-network.jpg
 share-img: /assets/img/path.jpg
-tags: [Function-as-a-Service , Serverless]
+tags: [Azure Service Bus , VPN]
 ---
 
 #### Let me change you minde...
