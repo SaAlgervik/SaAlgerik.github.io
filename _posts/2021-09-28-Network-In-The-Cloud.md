@@ -9,7 +9,7 @@ tags: [Function-as-a-Service , Serverless]
 ---
 
 #### Let me change you minde...
-So i wanted to fill you in on the benefits from moving all of our services in to the cloud. I know that you have the security in the back of your mind, as of course all of us have. But i been doing some research and Azure have someting called Azure Private Link (APL) where we can have use an Azure Service Bus (ASB). Whit this features our application can be run on a Virtual Private Cloud (VPC). With this in mind we can both have the security we need but still have the good stuff from having it in the cloud. 
+So i wanted to fill you in on the benefits from moving all of our services in to the cloud. I know that you have the security in the back of your mind, as of course all of us have. But i been doing some research and Azure have someting called [Azure Private Link (APL)](https://docs.microsoft.com/en-us/azure/private-link/private-link-overvieprivat) where we can have use an [Azure Service Bus (ASB)](https://www.serverless360.com/azure-service-bus). Whit this features our application can be run on a [Virtual Private Cloud (VPC)](https://awsfeed.com/whats-new/certification/azure-virtual-private-cloud-guide). With this in mind we can both have the security we need but still have the good stuff from having it in the cloud. 
 
 ***Let me explain!***
 
