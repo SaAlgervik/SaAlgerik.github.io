@@ -23,6 +23,7 @@ We can also schedule when we want things to happen for exampel if we want someth
 Whit this we can have Virtual Privat Cloud (VPC) and don't have to think about any downtime on the application and be able to grow when we need to, and have shared VPC for the entire organization. This means teams isolated within projects can maintain a shared private IP space to access commonly used services. And all this whitout scratching your head thinking about security, with a VPN this i all taken care of. A virtual private network (VPN) uses encryption to create a private network over the top of a public network. VPN traffic passes through publicly shared Internet infrastructure – routers, switches, etc. – but the traffic is scrambled and not visible to anyone.
 
 Best Regards Team bus drivers!
+
 _______________________
 
 
