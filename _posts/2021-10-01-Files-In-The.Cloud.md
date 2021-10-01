@@ -5,7 +5,7 @@ subtitle: For Better Or For Worse?
 cover-img: https://images.unsplash.com/photo-1461360228754-6e81c478b882?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80
 thumbnail-img: https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80
 share-img: /assets/img/path.jpg
-tags: [The Cloud]
+tags: [Files]
 ---
 
 #### Code 
@@ -15,7 +15,7 @@ _______________________
 
 This diagram is loaded from Azure.
 
-![Image From Blob](https://blobstoragetestazure.blob.core.windows.net/testblobfromappcad5ecc8-9101-4ab2-bf11-e312fb963029/Image/Untitled-Diagram.png)
+![Image From Blob](https://blobstoragetestazure.blob.core.windows.net/testblobfromappcad5ecc8-9101-4ab2-bf11-e312fb963029/ImagesForBlog/Untitled Diagram(1).png)
 
 ________________________
 
@@ -112,6 +112,7 @@ ________________________
 ### What Azure Does
 They make sure your data is encrypted when published to Azure, and placed on disk and decrypted when accessed using Azure Storage Service Encryption. You can also use be authenticated using public-key cryptography and you can use the Asure Key Vault for storing API keys, passwords, certificates, or cryptographic keys.
 
+_________________________
 
 <https://www.learnrazorpages.com/razor-pages/forms/file-upload>    
 <https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/>  
