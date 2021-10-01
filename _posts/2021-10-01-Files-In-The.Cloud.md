@@ -105,13 +105,14 @@ ___________________________
  ```
 ________________________
 
-If this whould go on for about a year in that pace for around i year the cost whould be around $20,000. ALOT more then i expected!
+If this would go on for about a year in that pace for around a year the cost would be around $20,000. ALOT more then I expected!
 
 ________________________
 
-
+### What Azure Does
+They make sure your data is encrypted when published to Azure, and placed on disk and decrypted when accessed using Azure Storage Service Encryption. You can also use be authenticated using public-key cryptography and you can use the Asure Key Vault for storing API keys, passwords, certificates, or cryptographic keys.
 
 
 <https://www.learnrazorpages.com/razor-pages/forms/file-upload>    
 <https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/>  
-<https://www.datacenterdynamics.com/en/news/iceland-rated-as-the-worlds-safest-location-for-a-data-center/>
+<https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts>

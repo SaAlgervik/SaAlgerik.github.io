@@ -105,7 +105,7 @@ After this we started with making the pipeline work in GitHub with som help from
 _______________________
 ### Cost
 
-For just a few users the cost whould be around $78.11 and for alot of users around $2,604 so this is something to think about!
+For just a few users the cost would be around $78.11 and for alot of users around $2,604 so this is something to think about!
 
 _______________________
 
