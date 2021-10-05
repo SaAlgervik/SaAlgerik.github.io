@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Logging
-subtitle: ---->>>>------
-cover-img: https://images.unsplash.com/photo-1461360228754-6e81c478b882?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80
-thumbnail-img: https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80
+subtitle: Makes All Applications Better
+cover-img: https://images.unsplash.com/photo-1454182590747-830146fabd33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80
+thumbnail-img: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80
 share-img: /assets/img/path.jpg
 tags: [Files]
 ---
