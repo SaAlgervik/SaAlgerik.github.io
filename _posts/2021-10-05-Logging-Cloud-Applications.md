@@ -5,7 +5,7 @@ subtitle: Makes All Applications Better
 cover-img: https://images.unsplash.com/photo-1454182590747-830146fabd33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80
 thumbnail-img: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80
 share-img: /assets/img/path.jpg
-tags: [Files]
+tags: [Logging, Serilog]
 ---
 
 #### Application?
@@ -90,7 +90,7 @@ _________________________
 If you have Logging in you application and someone tries to extract infortmation from you, if you have Logging on files you can see what has been taken in a hacking attack. You can se what request that has been done and from where. If someone tries to do alot of requests from in a short time this could be good you know aswell. Maybe someone is trying to hack some account or inject something that can break the code, this would be good to know about right away. 
 Good logging will make applications better, easier to fix when they are broken and easier to find problmes due to intrusion.
 
-And if something gets worse over time you can see and compare with uppdates with what could have caused thinks to get worse. 
+And if something gets worse over time you can see and compare with updates with what could have caused thinks to get worse. 
 
 _________________________
 ### Queries
